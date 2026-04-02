@@ -12,13 +12,10 @@ La scheda integra ingressi e uscite, sensori e attuatori, offrendo una piattafor
 
 La OPTA Control Board è composta dai seguenti elementi:
 
-* **2 uscite digitali** collegate a lampadine
-* **2 uscite digitali** dedicate al controllo di un motore (gestione del verso di rotazione)
-* **4 ingressi analogici/digitali**, inclusi:
-
-  * potenziometro
-  * indicatore di tensione
-* **2 ingressi aggiuntivi** per sensori:
+* **2 contatti NA** collegati a due lampadine
+* **2 contatti NA** dedicati al controllo di un motore (gestione del verso di rotazione)
+* **4 ingressi analogici/digitali** con potenziometro/interruttore e indicatore di tensione
+* **2 ingressi analogici** con sensori:
 
   * sensore di temperatura
   * sensore di luce
@@ -30,8 +27,8 @@ L’intero sistema è alimentato tramite un **alimentatore da PC riutilizzato**,
 ## Vista del dispositivo
 
 <div>
-  <img src="Immagini/Front.jpeg" height="300">
-  <img src="Immagini/Back.jpeg" height="300">
+  <img src="Immagini/Front.jpeg" height="250">
+  <img src="Immagini/Back.jpeg" height="250">
 </div>
 
 ---
@@ -53,7 +50,3 @@ Contiene la progettazione meccanica completa della struttura:
 Contiene lo schema elettrico delle connessioni presenti sul retro della struttura, utilizzato per la realizzazione del cablaggio e della distribuzione dei segnali.
 
 ---
-
-## Note
-
-La repository documenta lo sviluppo della scheda e la sua architettura, con finalità dimostrative e di supporto alla prototipazione di sistemi basati su PLC Arduino.
